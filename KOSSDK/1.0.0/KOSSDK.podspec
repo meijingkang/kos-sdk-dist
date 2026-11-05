@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
     :http => 'https://meijingkang.github.io/kos-sdk-dist/ios/KOSSDK-1.0.0.xcframework.zip',
     :sha256 => '2da3c17355c5abfbf84f85db86bdb477dc41e551f90670b46161ed1b804e3ea6'
   }
-  s.prepare_command = 'unzip -oq KOSSDK-1.0.0.xcframework.zip'
   s.vendored_frameworks = 'KOSSDK.xcframework'
   s.requires_arc = true
   s.static_framework = false
