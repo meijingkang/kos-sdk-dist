@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kos.sdk</groupId>
+  <artifactId>kos-sdk</artifactId>
+  <version>1.0.1</version>
+  <packaging>aar</packaging>
+  <name>KOS SDK - kos-sdk</name>
+  <description>KOS SDK Android native wrapper.</description>
+  <licenses>
+    <license>
+      <name>Commercial</name>
+      <url>https://example.com/kos-sdk/license</url>
+    </license>
+  </licenses>
+  <dependencies>
+    <dependency>
+      <groupId>com.kos.sdk</groupId>
+      <artifactId>kos-sdk-runtime</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kos.sdk</groupId>
+      <artifactId>kos-sdk-embedding</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kos.sdk</groupId>
+      <artifactId>kos-sdk-engine-arm64-v8a</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kos.sdk</groupId>
+      <artifactId>kos-sdk-engine-armeabi-v7a</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.kos.sdk</groupId>
+      <artifactId>kos-sdk-engine-x86_64</artifactId>
+      <version>1.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>2.1.20</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
