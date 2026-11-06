@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = 'KOS SDK native binary distribution for Objective-C and Swift hosts.'
   s.homepage         = 'https://meijingkang.github.io/kos-sdk-dist/'
   s.license          = { :type => 'Commercial', :text => 'Copyright KOS. All rights reserved.' }
-  s.author           = { 'KOS SDK Team' => 'sdk@example.com' }
+  s.author           = { 'KOS SDK' => 'https://github.com/meijingkang' }
   s.platform         = :ios, '15.0'
 
   s.source = {
