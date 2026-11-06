@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kos.sdk</groupId>
+  <artifactId>kos-sdk-engine-x86_64</artifactId>
+  <version>1.0.2</version>
+  <packaging>aar</packaging>
+  <name>KOS SDK - kos-sdk-engine-x86_64</name>
+  <description>KOS SDK native engine for x86_64.</description>
+  <licenses>
+    <license>
+      <name>Commercial</name>
+      <url>https://example.com/kos-sdk/license</url>
+    </license>
+  </licenses>
+  <dependencies>
+
+  </dependencies>
+</project>
